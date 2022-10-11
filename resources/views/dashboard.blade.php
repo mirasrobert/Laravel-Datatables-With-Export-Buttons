@@ -54,9 +54,9 @@
                         [10, 25, 50, 100, -1],
                         ['10 rows', '25 rows', '50 rows', '100 rows','All'],
                     ],
-                    dom: 'Bfrtip', // Blfrtip or Bfrtip
+                    dom: 'lBfrtip', // Blfrtip or Bfrtip
                     buttons: [
-                        'pageLength',
+                        //'pageLength',
                         { extend: 'pdf', text: '<i class="fas fa-file-pdf fa-1x text-red-600" aria-hidden="true"> PDF</i>' },
                         { extend: 'csv', text: '<i class="fas fa-file-csv fa-1x text-warning" aria-hidden="true"> CSV</i>' },
                         { extend: 'excel', text: '<i class="fas fa-file-excel text-green-600" aria-hidden="true"> EXCEL</i>' },
